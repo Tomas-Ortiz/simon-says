@@ -1,0 +1,96 @@
+body {
+     margin: 0;
+     background: #dedede;
+     display: flex;
+     align-items: center;
+     height: 100vh;
+   }
+   .gameboard {
+     height: 100vh;
+     width: 100vh;
+     border-radius: 50%;
+     overflow: hidden;
+     margin: 0 auto;
+     max-height: 60vh;
+     max-width: 60vh;
+   }
+   #nivel{
+     width: 20vh;
+     padding: 1%;
+     color: white;
+     font-family: 'Arial';
+     background: #080F26;
+     border-radius: 7%;
+     font-size: 30px;
+     position: absolute;
+     top: -2%;
+     left: 45%;
+     display: none;
+      }
+
+      #puntos{
+        width: 24vh;
+        padding: 1%;
+        color: white;
+        font-family: 'Arial';
+        background: #080F26;
+        border-radius: 7%;
+        font-size: 30px;
+        position: absolute;
+        top: -2%;
+        left: 70%;
+        display: none;
+      }
+
+   .color {
+     width: 50%;
+     height: 50%;
+     display: inline-block;
+   }
+   .left {
+     float: left;
+   }
+   .right {
+     float: left;
+   }
+   .celeste {
+     background: #22a6b3;
+   }
+   .celeste.light {
+     background: #7ed6df;
+   }
+   .violeta {
+     background: #be2edd;
+   }
+   .violeta.light {
+     background: #e056fd;
+   }
+   .naranja {
+     background: #f0932b;
+   }
+   .naranja.light {
+     background: #ffbe76;
+   }
+   .verde {
+     background: #6ab04c;
+   }
+   .verde.light {
+     background: #badc58;
+   }
+   .btn-start {
+     width: 400px;
+     height: 100px;
+     background: #ecf0f1;
+     color: #2c3e50;
+     font-size: 2.5rem;
+     position: absolute;
+     top: calc(50% - 50px);
+     left: calc(50% - 200px);
+   }
+   .hide {
+     display: none;
+   }
+
+   *{
+     font-family: 'Arial';
+   }
